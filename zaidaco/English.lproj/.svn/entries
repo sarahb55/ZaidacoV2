@@ -1,0 +1,44 @@
+8
+
+dir
+1
+http://loslobos/svn/zaidaco/English.lproj
+http://loslobos/svn/zaidaco
+
+
+
+2009-02-06T18:47:58.893881Z
+1
+sblock
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ee5745b4-3062-0410-a630-9a95390b8127
+
+InfoPlist.strings
+file
+
+
+
+
+2009-02-06T18:49:19.000000Z
+8f94eac2b42a45be211a5e238569d3f1
+2009-02-06T18:47:58.893881Z
+1
+sblock
+has-props
+
+CVS
+dir
+

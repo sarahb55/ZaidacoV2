@@ -1,0 +1,73 @@
+
+/*
+	void dataset::compute_epoch_string()
+	{
+		char start[256];
+		char end[256];
+		char epoch[256];
+		
+		
+		time_t start_time = yd_to_time_t(_start_year, _start_day);
+		tm *start_tm = gmtime(&start_time);
+		strftime(start, 256," %x", start_tm);
+		
+		time_t end_time = yd_to_time_t(_end_year, _end_day);
+		tm *end_tm = gmtime(&end_time);
+		strftime(end, 256," %x", end_tm);
+		
+		sprintf(epoch, "%s to %s", start, end);
+		
+		_date_string = epoch;
+	}
+	
+	string dataset::epoch_string()
+	{
+		return _epoch_string;
+		
+	}
+	*/
+/*
+	dataset & dataset::operator=(dataset &rhs)
+	{
+		if(this == &rhs)
+		{
+			return *this;
+		}
+		else
+		{
+			
+			if(_values){
+				delete [] _values;
+			}
+			
+			_values = new double[rhs.size()];
+			_size = rhs.size();
+			for(int i = 0; i < _size; i++){
+				_values[i] = rhs[i];
+				
+			}
+			
+			_date_internal= rhs.get_date_internal();;
+			_mean = rhs.mean();
+			_variance = rhs.variance();
+			_standard_of_deviation = rhs.variance();
+			_maximum = rhs.maximum();
+			_minimum = rhs.minimum();
+			_grid_size = rhs.grid_size();
+			_min_latitude = rhs.min_latitude();
+			_max_latitude = rhs.max_latitude();
+			_min_longitude = rhs.min_longitude();
+			_max_longitude = rhs.max_longitude();
+			_comments = rhs.get_comments();
+			_source_file_name = rhs.source_file();
+			_date_string = rhs.date_string();
+			_size = rhs.size();
+			_index = rhs.index();
+			
+		}
+		
+		return *this;
+		
+		
+	}
+	*/

@@ -1,0 +1,47 @@
+8
+
+dir
+1
+http://loslobos/svn/zaidaco/Japanese.lproj
+http://loslobos/svn/zaidaco
+
+
+
+2009-02-06T18:47:58.893881Z
+1
+sblock
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ee5745b4-3062-0410-a630-9a95390b8127
+
+InfoPlist.strings
+file
+
+
+
+
+2009-02-06T18:50:45.000000Z
+503b02bf710f69136bc65c133bd75c2f
+2009-02-06T18:47:58.893881Z
+1
+sblock
+has-props
+
+CVS
+dir
+
+main.nib
+dir
+

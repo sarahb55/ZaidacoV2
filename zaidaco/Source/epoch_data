@@ -1,0 +1,100 @@
+#ifndef EPOCH_DATA_H_INCLUDED
+#define EPOCH_DATA_H_INCLUDED
+/*
+ *  epoch_data.h
+ *  time_testing
+ *
+ *  Created by Sarah Block on 4/26/07.
+ *  Copyright 2007 __MyCompanyName__. All rights reserved.
+ *
+ */
+#include <string>
+#include <iostream>
+
+#define MAX_MONTH 12 
+#define MAX_DAY 31
+#define MAX_HOUR 23
+#define MAX_MINUTE 59
+#define MAX_SECOND 59
+
+//#define MONTHS[12]		{"Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sep.", "Oct.", "Nov.", "Dec." }
+int MONTH_DAYS[12] = {0, 31, 59, 90, 120, 151, 181, 222, 253, 283, 314, 344 };
+using std::string;
+using std::cout;
+using std::endl;
+
+class time_span{
+	public:
+	time_span(double days){_days = days; }
+	~time_span(){}
+	
+	double days()	{return _days;		}
+	int hours()		{return _hours;		}
+	int minutes()	{return _minutes;	}
+	float seconds() {return _seconds;	}
+
+	private:
+	double	_days;
+	int		_hours;
+	int		_minutes; 
+	float	_seconds;
+
+
+};
+class epoch_data{
+	
+public:
+	epoch_data(int year=2007, int month = 1, int day = 1, int hour = 0, int min = 0, float sec = 0.0);
+	~epoch_data(){}
+	
+	bool is_leap_year(int year);
+	double ymdhms_to_jd(int year, int month, int day, int hour, int minute, float sec);
+	float jd_to_mjd(float jd);
+	
+	void reset_epoch(int year=2007, int month = 1, int day = 1, int hour = 0, int min = 0, float sec = 0.0);
+	epoch_data & operator=(epoch_data &rhs);
+	bool operator>(epoch_data &rhs);
+	bool operator>=(epoch_data &rhs);
+	bool operator<=(epoch_data &rhs);
+	bool operator<(epoch_data &rhs);
+	bool operator==(epoch_data &rhs);
+	bool operator!=(epoch_data &rhs);
+	
+	string year_str(){return _year_str;}
+	string month_day_str(){return _month_day_str;}
+	string hour_min_sec_str(){return _hr_min_sec_str; }
+	string julian_date_str(){return _julian_date_str; }
+	
+	int year() {return _year; }
+	int month() {return _month; }
+	int day() {return _day; }
+	int hour() {return _hour; }
+	int minute() {return _minute; }
+	float second() {return _second; }
+	
+	double julian_date() { return _julian_date; }
+	double modified_julian_date(){ return _modified_julian_date; }
+	
+private:
+	void init(int year, int month = 1, int day = 1, int hour = 0, int min = 0, float sec = 0.0);
+	void set_strings();
+	char * month_to_string(int month);
+	
+	int _year; 
+	int _month;
+	int _day;
+	int _hour;
+	int _minute; 
+	int _second;
+	
+	double _julian_date;
+	double _modified_julian_date;
+	
+	string _year_str;
+	string _month_day_str;
+	string _hr_min_sec_str;
+	string _julian_date_str;
+	
+};
+
+#endif

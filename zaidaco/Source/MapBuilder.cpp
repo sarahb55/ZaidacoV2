@@ -1,0 +1,85 @@
+/**
+ * MapBuilder.cpp
+ *
+ * this is where main is. It creates the key components of the program 
+ * and opens up a window showing a data set.
+ * 
+ */ 
+
+#include <string.h>
+#include <stdio.h>
+#include <math.h>
+
+#include "earthviewui.h"
+#include "colorbarui.h"
+#include "colorbar.h"
+#include "map_builder.h"
+#include "fileloader/filereader.h"
+#include "fileloader/data.h"
+#include "fileloader/dataset.h"
+#include "animator.h"
+#include "epoch_scale.h"
+#include "gvutils.h"
+
+#ifdef __APPLE__
+#include <unistd.h>
+#endif/
+
+#include <FL/fl_ask.H>
+
+int main(int argc, char** argv)
+{
+   /**
+    * Create the parts of the program
+	*/
+    filereader *fr = new filereader();
+	dataset *dt = new dataset();
+	colorbar *cbar = new colorbar();
+	animator *anim = new animator();
+	data *ds = new data();
+	
+	if(!fr || !dt || !cbar || !anim || !ds) //Check the pointers
+	{
+		exit(0);
+	}
+	
+	/**
+	 * The file thinks it is running from the '/' or root directory.
+	 * This code finds the actual path of where the .app file is
+	 * is so that it can open resources.
+	 */
+	#ifdef __APPLE__
+	string file_name = get_apple_resource_path();
+	file_name += "/gam0.xyz";
+	fr->read_file(file_name.c_str(), dt,0);
+	release_apple_resource();
+	#endif
+	
+
+	dt->adjust_data();
+	dt->compute_mean();
+	dt->compute_standard_of_deviation();
+	
+	ds->push_back(dt);
+		
+	double 	mean = 	dt->mean();
+	double std = dt->standard_of_deviation();
+
+	cbar->set_maxvalue((float) mean + 3.5*std);
+	cbar->set_minvalue((float) mean - 3.5*std);
+	
+	map_builder *mb = new map_builder(1.0, ds, cbar, anim);
+	earthviewui *mw = new earthviewui();
+	
+	if(!mb || !mw) //Check the pointers
+	{
+		exit(0);
+	}
+	
+	delete fr; //All other elements are used for the life of the program.
+	
+	mw->show(argc, argv, cbar, mb, ds, anim);
+	
+	glutMainLoop();
+    return 0; 
+}

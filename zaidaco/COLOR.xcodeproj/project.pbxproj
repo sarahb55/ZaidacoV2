@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0A4F910BDD11D400A4F1AF /* epoch_scale.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D0A4F900BDD11D400A4F1AF /* epoch_scale.cxx */; };
+		2D0F99470BE1281100E818B8 /* epoch_data.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F99450BE1281100E818B8 /* epoch_data.cxx */; };
+		2D0FD42C0B933E7900A3E8CD /* coast_lines.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D0FD42B0B933E7900A3E8CD /* coast_lines.cxx */; };
+		2D184D3B0BFE2265008558D0 /* initialize.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D184D3A0BFE2265008558D0 /* initialize.cxx */; };
+		2D2EB16A0B8F8BD600539B33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5046590B39FABC00374621 /* OpenGL.framework */; };
+		2D4A8BBE110F40A600693A1B /* icons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A8BBD110F40A600693A1B /* icons.icns */; };
+		2D4A8BEB110F451200693A1B /* libfltk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BEA110F451200693A1B /* libfltk.a */; };
+		2D4A8BED110F451200693A1B /* libfltk_png.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BEC110F451200693A1B /* libfltk_png.a */; };
+		2D4A8BEF110F451200693A1B /* libfltk_jpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BEE110F451200693A1B /* libfltk_jpeg.a */; };
+		2D4A8BF1110F451200693A1B /* libfltk_images.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BF0110F451200693A1B /* libfltk_images.a */; };
+		2D4A8BF3110F451200693A1B /* libfltk_gl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BF2110F451200693A1B /* libfltk_gl.a */; };
+		2D4A8BF5110F451200693A1B /* libfltk_forms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BF4110F451200693A1B /* libfltk_forms.a */; };
+		2D4A8BF7110F453F00693A1B /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BF6110F453F00693A1B /* libGLEW.a */; };
+		2D4A8BFB110F456300693A1B /* libGLEW.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4A8BFA110F456300693A1B /* libGLEW.dylib */; };
+		2D4A8E95110F62DE00693A1B /* gam0.xyz in Resources */ = {isa = PBXBuildFile; fileRef = 2D4A8E94110F62DE00693A1B /* gam0.xyz */; };
+		2D6DA3F91112200C00054EAD /* Fl_Native_File_Chooser_MAC.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6DA3F81112200C00054EAD /* Fl_Native_File_Chooser_MAC.o */; };
+		2D6DA421111221CF00054EAD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */; };
+		2D6DA422111221D000054EAD /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */; };
+		2D7E8BE80B8F893000129E38 /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E8BE70B8F893000129E38 /* glew.c */; };
+		2DCB43BF0C60FEE200F3A09E /* coastlines.xy in Resources */ = {isa = PBXBuildFile; fileRef = 2DCB43BE0C60FEE200F3A09E /* coastlines.xy */; };
+		2DCB43C10C60FF0C00F3A09E /* geoid_rate_destripe60.xyz in Resources */ = {isa = PBXBuildFile; fileRef = 2DCB43C00C60FF0C00F3A09E /* geoid_rate_destripe60.xyz */; };
+		2DEAC9270B7A337800262340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
+		2DEAC9290B7A337800262340 /* MapBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9149B095F515300976476 /* MapBuilder.cpp */; };
+		2DEAC92A0B7A337800262340 /* colorbar.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D5045ED0B39DA9000374621 /* colorbar.cxx */; };
+		2DEAC92B0B7A337800262340 /* gvutils.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D7AC9670B5470F4007C1789 /* gvutils.cxx */; };
+		2DEAC92C0B7A337800262340 /* colorbarui.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2DB296D90B5549D3003843DF /* colorbarui.cxx */; };
+		2DEAC92E0B7A337800262340 /* earthviewui.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F6A4A0B69479500BB3C0A /* earthviewui.cxx */; };
+		2DEAC9300B7A337800262340 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		2DEAC9310B7A337800262340 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5046550B39FAA700374621 /* GLUT.framework */; };
+		2DEAC9330B7A337800262340 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5046650B39FC4600374621 /* AGL.framework */; };
+		2DEAC9890B7A37C100262340 /* dataset.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D01D9450B6E527600F36EF2 /* dataset.cxx */; };
+		2DEAC98A0B7A37C100262340 /* data.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D01D9480B6E529E00F36EF2 /* data.cxx */; };
+		2DEAC98B0B7A37C600262340 /* filereader.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D0CF3B80B6E55250046969E /* filereader.cxx */; };
+		2DEACA050B7A44B300262340 /* map_builder.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2D595C150B79103300C18225 /* map_builder.cxx */; };
+		2DF3CDD20BA1F3E3003FE1BC /* animator.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		2DEAC9340B7A337800262340 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.fl";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+				"$(INPUT_FILE_DIR)/$(INPUT_FILE_BASE).h",
+				"$(INPUT_FILE_DIR)/$(INPUT_FILE_BASE).cxx",
+			);
+			script = "flc ${INPUT_FILE_PATH}";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		2D01D90B0B6E4E8600F36EF2 /* FileLoader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileLoader-Info.plist"; sourceTree = "<group>"; };
+		2D01D9440B6E527600F36EF2 /* dataset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dataset.h; path = Source/fileloader/dataset.h; sourceTree = "<group>"; };
+		2D01D9450B6E527600F36EF2 /* dataset.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dataset.cxx; path = Source/fileloader/dataset.cxx; sourceTree = "<group>"; wrapsLines = 1; };
+		2D01D9470B6E529E00F36EF2 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = data.h; path = Source/fileloader/data.h; sourceTree = "<group>"; };
+		2D01D9480B6E529E00F36EF2 /* data.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = data.cxx; path = Source/fileloader/data.cxx; sourceTree = "<group>"; };
+		2D0A4F8F0BDD11D400A4F1AF /* epoch_scale.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = epoch_scale.h; path = Source/epoch_scale.h; sourceTree = "<group>"; };
+		2D0A4F900BDD11D400A4F1AF /* epoch_scale.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = epoch_scale.cxx; path = Source/epoch_scale.cxx; sourceTree = "<group>"; };
+		2D0CF3AF0B6E548E0046969E /* file_loader_driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = file_loader_driver.cpp; path = Source/fileloader/file_loader_driver.cpp; sourceTree = "<group>"; };
+		2D0CF3B70B6E55250046969E /* filereader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = filereader.h; path = Source/fileloader/filereader.h; sourceTree = "<group>"; };
+		2D0CF3B80B6E55250046969E /* filereader.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filereader.cxx; path = Source/fileloader/filereader.cxx; sourceTree = "<group>"; };
+		2D0F99450BE1281100E818B8 /* epoch_data.cxx */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = epoch_data.cxx; path = Source/epoch_data.cxx; sourceTree = "<group>"; };
+		2D0F99460BE1281100E818B8 /* epoch_data.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = epoch_data.h; path = Source/epoch_data.h; sourceTree = "<group>"; };
+		2D0FD42A0B933E7900A3E8CD /* coast_lines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = coast_lines.h; path = Source/coast_lines.h; sourceTree = "<group>"; };
+		2D0FD42B0B933E7900A3E8CD /* coast_lines.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = coast_lines.cxx; path = Source/coast_lines.cxx; sourceTree = "<group>"; };
+		2D184D390BFE2265008558D0 /* initialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = initialize.h; path = Source/initialize.h; sourceTree = "<group>"; };
+		2D184D3A0BFE2265008558D0 /* initialize.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = initialize.cxx; path = Source/initialize.cxx; sourceTree = "<group>"; };
+		2D3130C40C90585D008E9EB1 /* user_messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = user_messages.h; path = Source/user_messages.h; sourceTree = "<group>"; };
+		2D4A8BBD110F40A600693A1B /* icons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icons.icns; sourceTree = "<group>"; };
+		2D4A8BEA110F451200693A1B /* libfltk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfltk.a; path = /usr/local/lib/libfltk.a; sourceTree = "<absolute>"; };
+		2D4A8BEC110F451200693A1B /* libfltk_png.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfltk_png.a; path = /usr/local/lib/libfltk_png.a; sourceTree = "<absolute>"; };
+		2D4A8BEE110F451200693A1B /* libfltk_jpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfltk_jpeg.a; path = /usr/local/lib/libfltk_jpeg.a; sourceTree = "<absolute>"; };
+		2D4A8BF0110F451200693A1B /* libfltk_images.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfltk_images.a; path = /usr/local/lib/libfltk_images.a; sourceTree = "<absolute>"; };
+		2D4A8BF2110F451200693A1B /* libfltk_gl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfltk_gl.a; path = /usr/local/lib/libfltk_gl.a; sourceTree = "<absolute>"; };
+		2D4A8BF4110F451200693A1B /* libfltk_forms.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfltk_forms.a; path = /usr/local/lib/libfltk_forms.a; sourceTree = "<absolute>"; };
+		2D4A8BF6110F453F00693A1B /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = "/Users/sblock/Downloads/glew-1.5.2/lib/libGLEW.a"; sourceTree = "<absolute>"; };
+		2D4A8BFA110F456300693A1B /* libGLEW.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.dylib; path = "/Users/sblock/Downloads/glew-1.5.2/lib/libGLEW.dylib"; sourceTree = "<absolute>"; };
+		2D4A8E94110F62DE00693A1B /* gam0.xyz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gam0.xyz; sourceTree = "<group>"; };
+		2D5045EA0B39DA8100374621 /* colorbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = colorbar.h; path = Source/colorbar.h; sourceTree = "<group>"; };
+		2D5045ED0B39DA9000374621 /* colorbar.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colorbar.cxx; path = Source/colorbar.cxx; sourceTree = "<group>"; };
+		2D5046220B39EA4500374621 /* colorbartext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = colorbartext.h; path = Source/colorbartext.h; sourceTree = "<group>"; };
+		2D5046550B39FAA700374621 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		2D5046590B39FABC00374621 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		2D5046650B39FC4600374621 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		2D595C140B79103300C18225 /* map_builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = map_builder.h; path = Source/map_builder.h; sourceTree = "<group>"; };
+		2D595C150B79103300C18225 /* map_builder.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = map_builder.cxx; path = Source/map_builder.cxx; sourceTree = "<group>"; };
+		2D5EBB470C90388D0050DD6C /* untitled */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = untitled; sourceTree = "<group>"; };
+		2D5F6A490B69474800BB3C0A /* earthviewui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = earthviewui.h; path = Source/earthviewui.h; sourceTree = "<group>"; };
+		2D5F6A4A0B69479500BB3C0A /* earthviewui.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = earthviewui.cxx; path = Source/earthviewui.cxx; sourceTree = "<group>"; };
+		2D6DA3F81112200C00054EAD /* Fl_Native_File_Chooser_MAC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Fl_Native_File_Chooser_MAC.o; path = /Users/sblock/Downloads/fnc_new/Fl_Native_File_Chooser_MAC.o; sourceTree = "<absolute>"; };
+		2D7AC9650B54706C007C1789 /* gvutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gvutils.h; path = Source/gvutils.h; sourceTree = "<group>"; };
+		2D7AC9670B5470F4007C1789 /* gvutils.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gvutils.cxx; path = Source/gvutils.cxx; sourceTree = "<group>"; };
+		2D7E8BE70B8F893000129E38 /* glew.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = glew.c; path = Source/glew.c; sourceTree = "<group>"; };
+		2D7E8CB10B8F8AE900129E38 /* fgl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fgl.h; sourceTree = "<group>"; };
+		2D7E8CB20B8F8AE900129E38 /* fglu.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fglu.h; sourceTree = "<group>"; };
+		2D7E8CB30B8F8AE900129E38 /* fglut.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fglut.h; sourceTree = "<group>"; };
+		2D7E8CB40B8F8AE900129E38 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		2D7E8CB50B8F8AE900129E38 /* glsmap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = glsmap.h; sourceTree = "<group>"; };
+		2D7E8CB60B8F8AE900129E38 /* glut.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = glut.h; sourceTree = "<group>"; };
+		2D7E8CB70B8F8AE900129E38 /* glutf90.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = glutf90.h; sourceTree = "<group>"; };
+		2D7E8CB80B8F8AE900129E38 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		2D7E8CB90B8F8AE900129E38 /* tube.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = tube.h; sourceTree = "<group>"; };
+		2D7E8CBA0B8F8AE900129E38 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		2DB296D70B5549C3003843DF /* colorbarui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = colorbarui.h; path = Source/colorbarui.h; sourceTree = "<group>"; };
+		2DB296D90B5549D3003843DF /* colorbarui.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = colorbarui.cxx; path = Source/colorbarui.cxx; sourceTree = "<group>"; };
+		2DCB43BE0C60FEE200F3A09E /* coastlines.xy */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = coastlines.xy; sourceTree = "<group>"; };
+		2DCB43C00C60FF0C00F3A09E /* geoid_rate_destripe60.xyz */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = geoid_rate_destripe60.xyz; sourceTree = "<group>"; };
+		2DEAC83D0B7A2EB400262340 /* mapbuilder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mapbuilder-Info.plist"; sourceTree = "<group>"; };
+		2DEAC9380B7A337800262340 /* COLOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COLOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEAC93A0B7A337800262340 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
+		2DEAC9680B7A360000262340 /* COLOR.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = COLOR.cpp; path = Source/COLOR.cpp; sourceTree = "<group>"; };
+		2DF2DE480BE640A500E7133C /* animator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = animator.h; path = Source/animator.h; sourceTree = "<group>"; };
+		2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = animator.cxx; path = Source/animator.cxx; sourceTree = "<group>"; };
+		32DBCF6D0370B57F00C91783 /* COLOR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COLOR_Prefix.pch; sourceTree = "<group>"; };
+		4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		5FD9149B095F515300976476 /* MapBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MapBuilder.cpp; path = Source/MapBuilder.cpp; sourceTree = "<group>"; };
+		5FD9149C095F515300976476 /* mac.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = mac.r; path = Resource/mac.r; sourceTree = "<group>"; };
+		8D0C4E960486CD37000505A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DEAC92F0B7A337800262340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2EB16A0B8F8BD600539B33 /* OpenGL.framework in Frameworks */,
+				2DEAC9300B7A337800262340 /* Carbon.framework in Frameworks */,
+				2DEAC9310B7A337800262340 /* GLUT.framework in Frameworks */,
+				2DEAC9330B7A337800262340 /* AGL.framework in Frameworks */,
+				2D4A8BEB110F451200693A1B /* libfltk.a in Frameworks */,
+				2D4A8BED110F451200693A1B /* libfltk_png.a in Frameworks */,
+				2D4A8BEF110F451200693A1B /* libfltk_jpeg.a in Frameworks */,
+				2D4A8BF1110F451200693A1B /* libfltk_images.a in Frameworks */,
+				2D4A8BF3110F451200693A1B /* libfltk_gl.a in Frameworks */,
+				2D4A8BF5110F451200693A1B /* libfltk_forms.a in Frameworks */,
+				2D4A8BF7110F453F00693A1B /* libGLEW.a in Frameworks */,
+				2D4A8BFB110F456300693A1B /* libGLEW.dylib in Frameworks */,
+				2D6DA3F91112200C00054EAD /* Fl_Native_File_Chooser_MAC.o in Frameworks */,
+				2D6DA421111221CF00054EAD /* ApplicationServices.framework in Frameworks */,
+				2D6DA422111221D000054EAD /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DEAC9380B7A337800262340 /* COLOR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* COLOR */ = {
+			isa = PBXGroup;
+			children = (
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+				2DEAC83D0B7A2EB400262340 /* mapbuilder-Info.plist */,
+				2D6DA3F81112200C00054EAD /* Fl_Native_File_Chooser_MAC.o */,
+			);
+			name = COLOR;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2D7E8CB00B8F8AE900129E38 /* GL */,
+				2D595C200B79119E00C18225 /* Utilities */,
+				2D595C1F0B79117F00C18225 /* GUI Files */,
+				2D595C130B79100A00C18225 /* MapBuilder */,
+				2D01D93D0B6E511400F36EF2 /* FileLoader */,
+				5FD9149C095F515300976476 /* mac.r */,
+				32DBCF6D0370B57F00C91783 /* COLOR_Prefix.pch */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D4A8E94110F62DE00693A1B /* gam0.xyz */,
+				2D4A8BBD110F40A600693A1B /* icons.icns */,
+				2DCB43C00C60FF0C00F3A09E /* geoid_rate_destripe60.xyz */,
+				2DCB43BE0C60FEE200F3A09E /* coastlines.xy */,
+				8D0C4E960486CD37000505A6 /* Info.plist */,
+				0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */,
+				2DEAC93A0B7A337800262340 /* Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2D5046650B39FC4600374621 /* AGL.framework */,
+				2D5046590B39FABC00374621 /* OpenGL.framework */,
+				2D5046550B39FAA700374621 /* GLUT.framework */,
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+				4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */,
+				4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */,
+				2D4A8BEA110F451200693A1B /* libfltk.a */,
+				2D4A8BEC110F451200693A1B /* libfltk_png.a */,
+				2D4A8BEE110F451200693A1B /* libfltk_jpeg.a */,
+				2D4A8BF0110F451200693A1B /* libfltk_images.a */,
+				2D4A8BF2110F451200693A1B /* libfltk_gl.a */,
+				2D4A8BF4110F451200693A1B /* libfltk_forms.a */,
+				2D4A8BF6110F453F00693A1B /* libGLEW.a */,
+				2D4A8BFA110F456300693A1B /* libGLEW.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		2D01D93D0B6E511400F36EF2 /* FileLoader */ = {
+			isa = PBXGroup;
+			children = (
+				2D5EBB470C90388D0050DD6C /* untitled */,
+				2D01D90B0B6E4E8600F36EF2 /* FileLoader-Info.plist */,
+				2D01D9440B6E527600F36EF2 /* dataset.h */,
+				2D01D9450B6E527600F36EF2 /* dataset.cxx */,
+				2D01D9470B6E529E00F36EF2 /* data.h */,
+				2D01D9480B6E529E00F36EF2 /* data.cxx */,
+				2D0CF3AF0B6E548E0046969E /* file_loader_driver.cpp */,
+				2D0CF3B70B6E55250046969E /* filereader.h */,
+				2D0CF3B80B6E55250046969E /* filereader.cxx */,
+			);
+			name = FileLoader;
+			sourceTree = "<group>";
+		};
+		2D595C130B79100A00C18225 /* MapBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				2D0A4F8F0BDD11D400A4F1AF /* epoch_scale.h */,
+				2DF2DE480BE640A500E7133C /* animator.h */,
+				2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */,
+				2D0A4F900BDD11D400A4F1AF /* epoch_scale.cxx */,
+				5FD9149B095F515300976476 /* MapBuilder.cpp */,
+				2D595C140B79103300C18225 /* map_builder.h */,
+				2D595C150B79103300C18225 /* map_builder.cxx */,
+				2D0FD42A0B933E7900A3E8CD /* coast_lines.h */,
+				2D0FD42B0B933E7900A3E8CD /* coast_lines.cxx */,
+			);
+			name = MapBuilder;
+			sourceTree = "<group>";
+		};
+		2D595C1F0B79117F00C18225 /* GUI Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D5046220B39EA4500374621 /* colorbartext.h */,
+				2DB296D70B5549C3003843DF /* colorbarui.h */,
+				2DB296D90B5549D3003843DF /* colorbarui.cxx */,
+				2D5F6A490B69474800BB3C0A /* earthviewui.h */,
+				2D5F6A4A0B69479500BB3C0A /* earthviewui.cxx */,
+				2D3130C40C90585D008E9EB1 /* user_messages.h */,
+			);
+			name = "GUI Files";
+			sourceTree = "<group>";
+		};
+		2D595C200B79119E00C18225 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2D0F99450BE1281100E818B8 /* epoch_data.cxx */,
+				2D0F99460BE1281100E818B8 /* epoch_data.h */,
+				2D7E8BE70B8F893000129E38 /* glew.c */,
+				2DEAC9680B7A360000262340 /* COLOR.cpp */,
+				2D7AC9650B54706C007C1789 /* gvutils.h */,
+				2D7AC9670B5470F4007C1789 /* gvutils.cxx */,
+				2D5045EA0B39DA8100374621 /* colorbar.h */,
+				2D5045ED0B39DA9000374621 /* colorbar.cxx */,
+				2D184D390BFE2265008558D0 /* initialize.h */,
+				2D184D3A0BFE2265008558D0 /* initialize.cxx */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		2D7E8CB00B8F8AE900129E38 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				2D7E8CB10B8F8AE900129E38 /* fgl.h */,
+				2D7E8CB20B8F8AE900129E38 /* fglu.h */,
+				2D7E8CB30B8F8AE900129E38 /* fglut.h */,
+				2D7E8CB40B8F8AE900129E38 /* glew.h */,
+				2D7E8CB50B8F8AE900129E38 /* glsmap.h */,
+				2D7E8CB60B8F8AE900129E38 /* glut.h */,
+				2D7E8CB70B8F8AE900129E38 /* glutf90.h */,
+				2D7E8CB80B8F8AE900129E38 /* glxew.h */,
+				2D7E8CB90B8F8AE900129E38 /* tube.h */,
+				2D7E8CBA0B8F8AE900129E38 /* wglew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DEAC9250B7A337800262340 /* MapBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEAC9350B7A337800262340 /* Build configuration list for PBXNativeTarget "MapBuilder" */;
+			buildPhases = (
+				2DEAC9260B7A337800262340 /* Resources */,
+				2DEAC9280B7A337800262340 /* Sources */,
+				2DEAC92F0B7A337800262340 /* Frameworks */,
+			);
+			buildRules = (
+				2DEAC9340B7A337800262340 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = MapBuilder;
+			productInstallPath = "$(HOME)/Applications";
+			productName = COLOR;
+			productReference = 2DEAC9380B7A337800262340 /* COLOR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "COLOR" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 20286C29FDCF999611CA2CEA /* COLOR */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DEAC9250B7A337800262340 /* MapBuilder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DEAC9260B7A337800262340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEAC9270B7A337800262340 /* InfoPlist.strings in Resources */,
+				2DCB43BF0C60FEE200F3A09E /* coastlines.xy in Resources */,
+				2DCB43C10C60FF0C00F3A09E /* geoid_rate_destripe60.xyz in Resources */,
+				2D4A8BBE110F40A600693A1B /* icons.icns in Resources */,
+				2D4A8E95110F62DE00693A1B /* gam0.xyz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEAC9280B7A337800262340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEAC98B0B7A37C600262340 /* filereader.cxx in Sources */,
+				2DEAC9890B7A37C100262340 /* dataset.cxx in Sources */,
+				2DEAC98A0B7A37C100262340 /* data.cxx in Sources */,
+				2DEAC9290B7A337800262340 /* MapBuilder.cpp in Sources */,
+				2DEAC92A0B7A337800262340 /* colorbar.cxx in Sources */,
+				2DEAC92B0B7A337800262340 /* gvutils.cxx in Sources */,
+				2DEAC92C0B7A337800262340 /* colorbarui.cxx in Sources */,
+				2DEAC92E0B7A337800262340 /* earthviewui.cxx in Sources */,
+				2DEACA050B7A44B300262340 /* map_builder.cxx in Sources */,
+				2D7E8BE80B8F893000129E38 /* glew.c in Sources */,
+				2D0FD42C0B933E7900A3E8CD /* coast_lines.cxx in Sources */,
+				2DF3CDD20BA1F3E3003FE1BC /* animator.cxx in Sources */,
+				2D0A4F910BDD11D400A4F1AF /* epoch_scale.cxx in Sources */,
+				2D0F99470BE1281100E818B8 /* epoch_data.cxx in Sources */,
+				2D184D3B0BFE2265008558D0 /* initialize.cxx in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0867D6ABFE840B52C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DEAC9360B7A337800262340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = COLOR_Prefix.pch;
+				INFOPLIST_FILE = "/Users/sblock/COLOR/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../personal/E234_HW1_3/libs\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../personal/glew.1/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../Downloads/glew-1.5.2/lib\"";
+				OTHER_LDFLAGS = (
+					"-lfltk",
+					"$(OTHER_LDFLAGS)",
+				);
+				PRODUCT_NAME = COLOR;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		2DEAC9370B7A337800262340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = COLOR_Prefix.pch;
+				INFOPLIST_FILE = "/Users/sblock/COLOR/Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					"$(LIBRARY_SEARCH_PATHS)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../personal/E234_HW1_3/libs\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../personal/glew.1/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_4 = "\"$(SRCROOT)/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_5 = "\"$(SRCROOT)\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../Downloads/glew-1.5.2/lib\"";
+				OTHER_LDFLAGS = (
+					"-lfltk",
+					"$(OTHER_LDFLAGS)",
+				);
+				PRODUCT_NAME = COLOR;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0E91ACA08A95435008D54AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					/usr/lib/,
+				);
+				OTHER_LDFLAGS = "-lfltk_gl";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C0E91ACB08A95435008D54AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					/usr/lib/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_LDFLAGS = (
+					"-lfltk2",
+					"-lfltk_gl",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DEAC9350B7A337800262340 /* Build configuration list for PBXNativeTarget "MapBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEAC9360B7A337800262340 /* Debug */,
+				2DEAC9370B7A337800262340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "COLOR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E91ACA08A95435008D54AB /* Debug */,
+				C0E91ACB08A95435008D54AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

@@ -1,0 +1,6 @@
+#specify data set for coastlines
+COASTLINES coastlines.xy
+#texture width
+WIDTH 256
+texture height
+HEIGHT 256

@@ -1,0 +1,3 @@
+/Users/sblock/COLOR/ylm10.xyz
+/Users/sblock/COLOR/ylm11.xyz
+/Users/sblock/COLOR/ylm20.xyz

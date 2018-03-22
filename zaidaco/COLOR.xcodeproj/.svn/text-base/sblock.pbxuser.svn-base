@@ -1,0 +1,1394 @@
+// !$*UTF8*$!
+{
+	0867D6ABFE840B52C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 555}}";
+			sepNavSelRange = "{85, 0}";
+			sepNavVisRect = "{{0, 0}, {822, 555}}";
+			sepNavWindowFrame = "{{15, 313}, {861, 684}}";
+		};
+	};
+	20286C28FDCF999611CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 2DEAC9390B7A337800262340 /* MapBuilder */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 2DEAC9250B7A337800262340 /* MapBuilder */;
+		addToTargets = (
+			2DEAC9250B7A337800262340 /* MapBuilder */,
+		);
+		breakpoints = (
+			2D28E08B0B613BD4000978F6 /* colorbar.cxx:401 */,
+			2D28E08D0B613BD5000978F6 /* colorbar.cxx:404 */,
+			2D28E08F0B613BD6000978F6 /* colorbar.cxx:409 */,
+			2D28E09E0B613C8A000978F6 /* colorbarui.cxx:442 */,
+			2D89B9B30B614B4D009591B9 /* mainwindowui.h:22 */,
+			2D89BA680B614F9B009591B9 /* colorbarui.h:81 */,
+			2D1202980B66F5560011FCA5 /* colorbarui.h:186 */,
+			2D0CF4550B6E8A730046969E /* dataset.cxx:174 */,
+			2D0CF4D30B6EA0A60046969E /* dataset.cxx:219 */,
+			2D0CF4D70B6EA0E00046969E /* dataset.cxx:217 */,
+			2D0CF4EC0B6EA2BD0046969E /* dataset.h:82 */,
+			2D0ED8840B6FA30F00A1A70A /* filereader.cxx:32 */,
+			2DE5BC3F0B727EBA002624DE /* dataset.h:113 */,
+			2DD5F8A50B7783FC00C3EC73 /* dataset.cxx:172 */,
+			2DD5F9600B77A43D00C3EC73 /* glmaindisplaybox.h:46 */,
+			2D382A790B7B79F400FFEB64 /* map_builder.cxx:405 */,
+			2D8C9B5B0B7BAFD4005815EB /* COLOR.cpp:13 */,
+			2D629D610B822BDE00AACE0D /* MapBuilder.cpp:1 */,
+			2D3000B00B8396310056E40D /* map_builder.cxx:280 */,
+			2D3000DC0B839A0A0056E40D /* ltga.h:73 */,
+			2D1301A60B960DCD006873F8 /* filereader.cxx:197 */,
+			2D8677820B973632009C78C3 /* MapBuilder.cpp:67 */,
+			2D8678550B9741D1009C78C3 /* filereader.cxx:223 */,
+			2DB72DFE0B9DCAF90056C13F /* map_builder.cxx:407 */,
+			2DB72E000B9DCAFA0056C13F /* map_builder.cxx:409 */,
+			2DB72E020B9DCAFB0056C13F /* map_builder.cxx:411 */,
+			2D0ED4050BA9B6D40016B8DE /* animator.cxx:1 */,
+			2D0ED4070BA9B6E80016B8DE /* animator.cxx:1 */,
+			2D0437910BB430630085BED2 /* colorbar.cxx:437 */,
+			2D0437D80BB4550D0085BED2 /* dataset.cxx:78 */,
+			2DAD18E90BB83F7B0044000C /* dataset.cxx:260 */,
+			2DAD1B790BB8586A0044000C /* animator.cxx:1 */,
+			2DAD1BF00BB95EE40044000C /* colorbartext.h:45 */,
+			2DB04B3F0BB96F820085D1DE /* gvutils.cxx:84 */,
+			2D2A10CA0BE26F6C00C37C92 /* filereader.cxx:44 */,
+			2D184D3D0BFE23B0008558D0 /* initialize.h:1 */,
+			2D184D7C0BFE299F008558D0 /* initialize.cxx:21 */,
+			2D9E78CD0C04A0EE00C6DAEA /* animator.cxx:1 */,
+			2D309B190C4D429A00E48573 /* dataset.h:160 */,
+			2D2887780C56450E0062A670 /* MapBuilder.cpp:45 */,
+			2D75C1790CABF50E009C1ADD /* animator.h:73 */,
+			2D6369970CAD49E5009202B9 /* epoch_data.cxx:30 */,
+			2D636A580CAD818B009202B9 /* filereader.h:56 */,
+			2D636A6B0CAD832F009202B9 /* earthviewui.cxx:664 */,
+		);
+		codeSenseManager = 2D5045E90B39DA5800374621 /* Code sense */;
+		executables = (
+			2DEAC9390B7A337800262340 /* MapBuilder */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					137.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					83,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					272,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					212,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					219,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					15,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 253117843;
+			PBXWorkspaceStateSaveDate = 253117843;
+		};
+		perUserProjectItems = {
+			2D0778A30EF836F200262251 /* PBXTextBookmark */ = 2D0778A30EF836F200262251 /* PBXTextBookmark */;
+			2D0778A40EF836F200262251 /* PBXTextBookmark */ = 2D0778A40EF836F200262251 /* PBXTextBookmark */;
+			2D27E3800F164D4E00ECBE6B /* PBXTextBookmark */ = 2D27E3800F164D4E00ECBE6B /* PBXTextBookmark */;
+			2D27E3810F164D4E00ECBE6B /* PBXBookmark */ = 2D27E3810F164D4E00ECBE6B /* PBXBookmark */;
+			2D27E3820F164D4E00ECBE6B /* PBXTextBookmark */ = 2D27E3820F164D4E00ECBE6B /* PBXTextBookmark */;
+			2D27E3870F16548600ECBE6B /* PBXTextBookmark */ = 2D27E3870F16548600ECBE6B /* PBXTextBookmark */;
+			2D27E3880F16548600ECBE6B /* PBXTextBookmark */ = 2D27E3880F16548600ECBE6B /* PBXTextBookmark */;
+			2D27E3890F16548600ECBE6B /* PBXTextBookmark */ = 2D27E3890F16548600ECBE6B /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2D5045E80B39DA5800374621 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2D01D9440B6E527600F36EF2 /* dataset.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {770, 3416}}";
+			sepNavSelRange = "{5508, 0}";
+			sepNavVisRect = "{{0, 2193}, {770, 810}}";
+			sepNavWindowFrame = "{{147, 15}, {809, 939}}";
+		};
+	};
+	2D01D9450B6E527600F36EF2 /* dataset.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 4662}}";
+			sepNavSelRange = "{654, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 734}}";
+			sepNavWindowFrame = "{{245, -5}, {885, 848}}";
+		};
+	};
+	2D01D9470B6E529E00F36EF2 /* data.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 2058}}";
+			sepNavSelRange = "{0, 2908}";
+			sepNavVisRect = "{{0, 515}, {846, 719}}";
+			sepNavWindowFrame = "{{131, 71}, {885, 848}}";
+		};
+	};
+	2D01D9480B6E529E00F36EF2 /* data.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 3934}}";
+			sepNavSelRange = "{0, 4096}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{139, 73}, {885, 848}}";
+		};
+	};
+	2D0437910BB430630085BED2 /* colorbar.cxx:437 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D5045ED0B39DA9000374621 /* colorbar.cxx */;
+		functionName = "colorbar::draw_color_scale()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 437;
+		location = COLOR;
+		modificationTime = 253121669.667304;
+		state = 1;
+	};
+	2D0437D80BB4550D0085BED2 /* dataset.cxx:78 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9450B6E527600F36EF2 /* dataset.cxx */;
+		functionName = "dataset::dataset()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 78;
+		location = COLOR;
+		modificationTime = 253121669.669427;
+		state = 1;
+	};
+	2D0778A30EF836F200262251 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2D595C150B79103300C18225 /* map_builder.cxx */;
+		name = "map_builder.cxx: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1100;
+		vrLoc = 2441;
+	};
+	2D0778A40EF836F200262251 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5FD9149B095F515300976476 /* MapBuilder.cpp */;
+		name = "MapBuilder.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	2D0A4F8F0BDD11D400A4F1AF /* epoch_scale.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 994}}";
+			sepNavSelRange = "{413, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 869}}";
+			sepNavWindowFrame = "{{94, 4}, {885, 998}}";
+		};
+	};
+	2D0A4F900BDD11D400A4F1AF /* epoch_scale.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 1204}}";
+			sepNavSelRange = "{598, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 869}}";
+			sepNavWindowFrame = "{{526, -67}, {885, 998}}";
+		};
+	};
+	2D0CF3AF0B6E548E0046969E /* file_loader_driver.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 882}}";
+			sepNavSelRange = "{809, 54}";
+			sepNavVisRect = "{{0, 163}, {846, 719}}";
+			sepNavWindowFrame = "{{248, 154}, {885, 848}}";
+		};
+	};
+	2D0CF3B70B6E55250046969E /* filereader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 1204}}";
+			sepNavSelRange = "{0, 1966}";
+			sepNavVisRect = "{{0, 485}, {846, 719}}";
+			sepNavWindowFrame = "{{301, 132}, {885, 848}}";
+		};
+	};
+	2D0CF3B80B6E55250046969E /* filereader.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 3598}}";
+			sepNavSelRange = "{0, 4773}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{206, 89}, {885, 848}}";
+		};
+	};
+	2D0CF4550B6E8A730046969E /* dataset.cxx:174 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9450B6E527600F36EF2 /* dataset.cxx */;
+		functionName = "dataset::push_back()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 174;
+		location = COLOR;
+		modificationTime = 253121669.668771;
+		state = 1;
+	};
+	2D0CF4D30B6EA0A60046969E /* dataset.cxx:219 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9450B6E527600F36EF2 /* dataset.cxx */;
+		functionName = "dataset::compute_variance()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 219;
+		location = COLOR;
+		modificationTime = 253121669.667813;
+		state = 1;
+	};
+	2D0CF4D70B6EA0E00046969E /* dataset.cxx:217 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9450B6E527600F36EF2 /* dataset.cxx */;
+		functionName = "dataset::compute_variance()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 217;
+		location = COLOR;
+		modificationTime = 253121669.667937;
+		state = 1;
+	};
+	2D0CF4EC0B6EA2BD0046969E /* dataset.h:82 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9440B6E527600F36EF2 /* dataset.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 82;
+		modificationTime = 253121669.668723;
+		state = 1;
+	};
+	2D0ED4050BA9B6D40016B8DE /* animator.cxx:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */;
+		functionName = "animator::calculate_next_frame()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1;
+		location = COLOR;
+		modificationTime = 253121669.67018;
+		state = 1;
+	};
+	2D0ED4070BA9B6E80016B8DE /* animator.cxx:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */;
+		functionName = "animator::calculate_next_frame()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1;
+		location = COLOR;
+		modificationTime = 253121669.669346;
+		state = 1;
+	};
+	2D0ED8840B6FA30F00A1A70A /* filereader.cxx:32 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D0CF3B80B6E55250046969E /* filereader.cxx */;
+		functionName = "filereader::read_file()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 32;
+		location = COLOR;
+		modificationTime = 253121669.669397;
+		state = 1;
+	};
+	2D0F99450BE1281100E818B8 /* epoch_data.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 3654}}";
+			sepNavSelRange = "{0, 5475}";
+			sepNavVisRect = "{{0, 0}, {1066, 689}}";
+			sepNavWindowFrame = "{{732, 35}, {1105, 818}}";
+		};
+	};
+	2D0F99460BE1281100E818B8 /* epoch_data.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 1974}}";
+			sepNavSelRange = "{0, 3518}";
+			sepNavVisRect = "{{0, 0}, {1066, 689}}";
+			sepNavWindowFrame = "{{410, -221}, {1105, 818}}";
+		};
+	};
+	2D0FD42A0B933E7900A3E8CD /* coast_lines.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 1134}}";
+			sepNavSelRange = "{0, 2507}";
+			sepNavVisRect = "{{0, 251}, {846, 869}}";
+			sepNavWindowFrame = "{{115, 4}, {885, 998}}";
+		};
+	};
+	2D0FD42B0B933E7900A3E8CD /* coast_lines.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {450, 3724}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 246}";
+			sepNavVisRect = "{{0, 742}, {846, 869}}";
+			sepNavWindowFrame = "{{147, 4}, {885, 998}}";
+		};
+	};
+	2D1202980B66F5560011FCA5 /* colorbarui.h:186 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DB296D70B5549C3003843DF /* colorbarui.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 186;
+		modificationTime = 253121669.6688;
+		state = 1;
+	};
+	2D1301A60B960DCD006873F8 /* filereader.cxx:197 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D0CF3B80B6E55250046969E /* filereader.cxx */;
+		functionName = "filereader::read_file()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 197;
+		location = COLOR;
+		modificationTime = 253121669.669783;
+		state = 1;
+	};
+	2D184D390BFE2265008558D0 /* initialize.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 719}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{169, 90}, {885, 848}}";
+		};
+	};
+	2D184D3A0BFE2265008558D0 /* initialize.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 689}}";
+			sepNavSelRange = "{335, 0}";
+			sepNavVisRect = "{{0, 0}, {1066, 689}}";
+			sepNavWindowFrame = "{{91, 91}, {1105, 818}}";
+		};
+	};
+	2D184D3D0BFE23B0008558D0 /* initialize.h:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D184D390BFE2265008558D0 /* initialize.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1;
+		modificationTime = 253121669.669459;
+		state = 1;
+	};
+	2D184D7C0BFE299F008558D0 /* initialize.cxx:21 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D184D3A0BFE2265008558D0 /* initialize.cxx */;
+		functionName = "init_params::get_params_from_file()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 21;
+		location = COLOR;
+		modificationTime = 253121669.670146;
+		state = 1;
+	};
+	2D27E3800F164D4E00ECBE6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2D0FD42B0B933E7900A3E8CD /* coast_lines.cxx */;
+		name = "coast_lines.cxx: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	2D27E3810F164D4E00ECBE6B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2D5EBB470C90388D0050DD6C /* untitled */;
+	};
+	2D27E3820F164D4E00ECBE6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2D0FD42B0B933E7900A3E8CD /* coast_lines.cxx */;
+		name = "coast_lines.cxx: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 246;
+		vrLoc = 0;
+	};
+	2D27E3870F16548600ECBE6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2D5EBB470C90388D0050DD6C /* untitled */;
+		name = "untitled: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 337;
+		vrLoc = 0;
+	};
+	2D27E3880F16548600ECBE6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2D595C150B79103300C18225 /* map_builder.cxx */;
+		name = "map_builder.cxx: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1100;
+		vrLoc = 2441;
+	};
+	2D27E3890F16548600ECBE6B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5FD9149B095F515300976476 /* MapBuilder.cpp */;
+		name = "MapBuilder.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1109;
+		vrLoc = 0;
+	};
+	2D2887780C56450E0062A670 /* MapBuilder.cpp:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5FD9149B095F515300976476 /* MapBuilder.cpp */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		location = COLOR;
+		modificationTime = 253121669.66737;
+		state = 1;
+	};
+	2D28E08B0B613BD4000978F6 /* colorbar.cxx:401 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D5045ED0B39DA9000374621 /* colorbar.cxx */;
+		functionName = "colorbar::draw_color_scale()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 401;
+		location = COLOR;
+		modificationTime = 253121669.667227;
+		state = 1;
+	};
+	2D28E08D0B613BD5000978F6 /* colorbar.cxx:404 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D5045ED0B39DA9000374621 /* colorbar.cxx */;
+		functionName = "colorbar::draw_color_scale()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 404;
+		location = COLOR;
+		modificationTime = 253121669.667957;
+		state = 1;
+	};
+	2D28E08F0B613BD6000978F6 /* colorbar.cxx:409 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D5045ED0B39DA9000374621 /* colorbar.cxx */;
+		functionName = "colorbar::draw_color_scale()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 409;
+		location = COLOR;
+		modificationTime = 253121669.669476;
+		state = 1;
+	};
+	2D28E09E0B613C8A000978F6 /* colorbarui.cxx:442 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DB296D90B5549D3003843DF /* colorbarui.cxx */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 442;
+		location = COLOR;
+		modificationTime = 253121669.66719;
+		state = 1;
+	};
+	2D2A10CA0BE26F6C00C37C92 /* filereader.cxx:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D0CF3B80B6E55250046969E /* filereader.cxx */;
+		functionName = "filereader::read_file()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		location = COLOR;
+		modificationTime = 253121669.667899;
+		state = 1;
+	};
+	2D3000B00B8396310056E40D /* map_builder.cxx:280 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D595C150B79103300C18225 /* map_builder.cxx */;
+		functionName = "map_builder::build_geometry()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 280;
+		location = COLOR;
+		modificationTime = 253121669.66954;
+		state = 1;
+	};
+	2D3000B30B8396500056E40D /* ltga.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 30;
+		lastKnownFileType = sourcecode.c.h;
+		name = ltga.h;
+		path = /Users/sblock/COLOR/Source/ltga.h;
+		sourceTree = "<absolute>";
+	};
+	2D3000DC0B839A0A0056E40D /* ltga.h:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D3000B30B8396500056E40D /* ltga.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 73;
+		modificationTime = 253121669.667287;
+		state = 1;
+	};
+	2D309B190C4D429A00E48573 /* dataset.h:160 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9440B6E527600F36EF2 /* dataset.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 160;
+		modificationTime = 253121669.667341;
+		state = 1;
+	};
+	2D3130C40C90585D008E9EB1 /* user_messages.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {752, 1414}}";
+			sepNavSelRange = "{0, 4006}";
+			sepNavVisRect = "{{0, 606}, {715, 808}}";
+			sepNavWindowFrame = "{{86, 53}, {754, 937}}";
+		};
+	};
+	2D382A790B7B79F400FFEB64 /* map_builder.cxx:405 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D595C150B79103300C18225 /* map_builder.cxx */;
+		functionName = "map_builder::Eval()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 405;
+		location = COLOR;
+		modificationTime = 253121669.667975;
+		state = 1;
+	};
+	2D5045E80B39DA5800374621 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+		};
+		scmType = scm.cvs;
+	};
+	2D5045E90B39DA5800374621 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2D5045EA0B39DA8100374621 /* colorbar.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 2716}}";
+			sepNavSelRange = "{59, 255}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{314, -439}, {885, 848}}";
+		};
+	};
+	2D5045ED0B39DA9000374621 /* colorbar.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 6398}}";
+			sepNavSelRange = "{0, 9346}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{222, 135}, {885, 848}}";
+		};
+	};
+	2D5046220B39EA4500374621 /* colorbartext.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 1036}}";
+			sepNavSelRange = "{0, 1686}";
+			sepNavVisRect = "{{0, 294}, {846, 719}}";
+			sepNavWindowFrame = "{{294, 80}, {885, 848}}";
+		};
+	};
+	2D595C140B79103300C18225 /* map_builder.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 3304}}";
+			sepNavSelRange = "{0, 5541}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{207, 17}, {885, 848}}";
+		};
+	};
+	2D595C150B79103300C18225 /* map_builder.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {826, 8736}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2441, 1100}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{282, 143}, {885, 848}}";
+		};
+	};
+	2D5EBB470C90388D0050DD6C /* untitled */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {450, 1008}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 337}";
+			sepNavWindowFrame = "{{15, -1}, {1041, 998}}";
+		};
+	};
+	2D5F6A260B69441F00BB3C0A /* glmaindisplaybox.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = glmaindisplaybox.h;
+		path = /Users/sblock/COLOR/Source/glmaindisplaybox.h;
+		sourceTree = "<absolute>";
+	};
+	2D5F6A490B69474800BB3C0A /* earthviewui.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 3948}}";
+			sepNavSelRange = "{0, 5970}";
+			sepNavVisRect = "{{17, 3127}, {550, 821}}";
+			sepNavWindowFrame = "{{180, 4}, {589, 950}}";
+		};
+	};
+	2D5F6A4A0B69479500BB3C0A /* earthviewui.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1085, 10094}}";
+			sepNavSelRange = "{15151, 48}";
+			sepNavVisRect = "{{0, 9157}, {1085, 265}}";
+			sepNavWindowFrame = "{{263, 5}, {809, 939}}";
+		};
+	};
+	2D629D610B822BDE00AACE0D /* MapBuilder.cpp:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5FD9149B095F515300976476 /* MapBuilder.cpp */;
+		functionName = "init()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1;
+		location = COLOR;
+		modificationTime = 253121669.669133;
+		state = 1;
+	};
+	2D6369970CAD49E5009202B9 /* epoch_data.cxx:30 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D0F99450BE1281100E818B8 /* epoch_data.cxx */;
+		functionName = "epoch_data::reset_epoch()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 30;
+		location = COLOR;
+		modificationTime = 253121669.669711;
+		state = 1;
+	};
+	2D636A580CAD818B009202B9 /* filereader.h:56 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D0CF3B70B6E55250046969E /* filereader.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 56;
+		modificationTime = 253121669.66975;
+		state = 1;
+	};
+	2D636A6B0CAD832F009202B9 /* earthviewui.cxx:664 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D5F6A4A0B69479500BB3C0A /* earthviewui.cxx */;
+		functionName = "load_data_sets_cb()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 664;
+		location = COLOR;
+		modificationTime = 253121669.669817;
+		state = 1;
+	};
+	2D75C1790CABF50E009C1ADD /* animator.h:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DF2DE480BE640A500E7133C /* animator.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 73;
+		modificationTime = 253121669.668912;
+		state = 1;
+	};
+	2D7AC9650B54706C007C1789 /* gvutils.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 719}}";
+			sepNavSelRange = "{452, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{319, 25}, {885, 848}}";
+		};
+	};
+	2D7AC9670B5470F4007C1789 /* gvutils.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 3388}}";
+			sepNavSelRange = "{2436, 0}";
+			sepNavVisRect = "{{0, 1121}, {846, 869}}";
+			sepNavWindowFrame = "{{295, -55}, {885, 998}}";
+		};
+	};
+	2D7E8BE70B8F893000129E38 /* glew.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1472, 148288}}";
+			sepNavSelRange = "{1720, 0}";
+			sepNavVisRect = "{{0, 0}, {1021, 707}}";
+			sepNavWindowFrame = "{{79, 59}, {1060, 836}}";
+		};
+	};
+	2D7E8CB40B8F8AE900129E38 /* glew.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1544, 149184}}";
+			sepNavSelRange = "{3281, 35}";
+			sepNavVisRect = "{{0, 786}, {1085, 265}}";
+			sepNavWindowFrame = "{{15, 161}, {1060, 836}}";
+		};
+	};
+	2D8677820B973632009C78C3 /* MapBuilder.cpp:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 5FD9149B095F515300976476 /* MapBuilder.cpp */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 67;
+		location = COLOR;
+		modificationTime = 253121669.668528;
+		state = 1;
+	};
+	2D8678550B9741D1009C78C3 /* filereader.cxx:223 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D0CF3B80B6E55250046969E /* filereader.cxx */;
+		functionName = "filereader::read_file()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 223;
+		location = COLOR;
+		modificationTime = 253121669.669302;
+		state = 1;
+	};
+	2D89B99B0B614819009591B9 /* mainwindowui.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = mainwindowui.h;
+		path = /Users/sblock/COLOR/mainwindowui.h;
+		sourceTree = "<absolute>";
+	};
+	2D89B9B30B614B4D009591B9 /* mainwindowui.h:22 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D89B99B0B614819009591B9 /* mainwindowui.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 22;
+		modificationTime = 253121669.667268;
+		state = 1;
+	};
+	2D89BA680B614F9B009591B9 /* colorbarui.h:81 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DB296D70B5549C3003843DF /* colorbarui.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 81;
+		modificationTime = 253121669.668753;
+		state = 1;
+	};
+	2D8C9B5B0B7BAFD4005815EB /* COLOR.cpp:13 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DEAC9680B7A360000262340 /* COLOR.cpp */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 13;
+		modificationTime = 253121669.667877;
+		state = 1;
+	};
+	2D9E78CD0C04A0EE00C6DAEA /* animator.cxx:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */;
+		functionName = "animator::calculate_next_frame()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1;
+		location = COLOR;
+		modificationTime = 253121669.669508;
+		state = 1;
+	};
+	2DAD18E90BB83F7B0044000C /* dataset.cxx:260 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9450B6E527600F36EF2 /* dataset.cxx */;
+		functionName = "dataset::date_string()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 260;
+		location = COLOR;
+		modificationTime = 253121669.668829;
+		state = 1;
+	};
+	2DAD1B790BB8586A0044000C /* animator.cxx:1 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */;
+		functionName = "animator::calculate_next_frame()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1;
+		location = COLOR;
+		modificationTime = 253121669.668848;
+		state = 1;
+	};
+	2DAD1BF00BB95EE40044000C /* colorbartext.h:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D5046220B39EA4500374621 /* colorbartext.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		modificationTime = 253121669.667325;
+		state = 1;
+	};
+	2DB04B3F0BB96F820085D1DE /* gvutils.cxx:84 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D7AC9670B5470F4007C1789 /* gvutils.cxx */;
+		functionName = "yd_to_jd()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 84;
+		location = COLOR;
+		modificationTime = 253121669.668878;
+		state = 1;
+	};
+	2DB296D70B5549C3003843DF /* colorbarui.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1021, 2590}}";
+			sepNavSelRange = "{60, 256}";
+			sepNavVisRect = "{{0, 0}, {1021, 707}}";
+			sepNavWindowFrame = "{{286, -176}, {1060, 836}}";
+		};
+	};
+	2DB296D90B5549D3003843DF /* colorbarui.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 6188}}";
+			sepNavSelRange = "{4535, 0}";
+			sepNavVisRect = "{{0, 2238}, {846, 719}}";
+			sepNavWindowFrame = "{{386, 154}, {885, 848}}";
+		};
+	};
+	2DB72DFE0B9DCAF90056C13F /* map_builder.cxx:407 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D595C150B79103300C18225 /* map_builder.cxx */;
+		functionName = "map_builder::evaluate()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 407;
+		location = COLOR;
+		modificationTime = 253121669.66895;
+		state = 1;
+	};
+	2DB72E000B9DCAFA0056C13F /* map_builder.cxx:409 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D595C150B79103300C18225 /* map_builder.cxx */;
+		functionName = "map_builder::evaluate()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 409;
+		location = COLOR;
+		modificationTime = 253121669.669993;
+		state = 1;
+	};
+	2DB72E020B9DCAFB0056C13F /* map_builder.cxx:411 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D595C150B79103300C18225 /* map_builder.cxx */;
+		functionName = "map_builder::evaluate()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 411;
+		location = COLOR;
+		modificationTime = 253121669.669835;
+		state = 1;
+	};
+	2DD5F8A50B7783FC00C3EC73 /* dataset.cxx:172 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9450B6E527600F36EF2 /* dataset.cxx */;
+		functionName = "dataset::push_back()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 172;
+		location = COLOR;
+		modificationTime = 253121669.669379;
+		state = 1;
+	};
+	2DD5F9600B77A43D00C3EC73 /* glmaindisplaybox.h:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D5F6A260B69441F00BB3C0A /* glmaindisplaybox.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		modificationTime = 253121669.667084;
+		state = 1;
+	};
+	2DE5BC3F0B727EBA002624DE /* dataset.h:113 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2D01D9440B6E527600F36EF2 /* dataset.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 113;
+		modificationTime = 253121669.669111;
+		state = 1;
+	};
+	2DEAC9250B7A337800262340 /* MapBuilder */ = {
+		activeExec = 0;
+		executables = (
+			2DEAC9390B7A337800262340 /* MapBuilder */,
+		);
+	};
+	2DEAC9390B7A337800262340 /* MapBuilder */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MapBuilder;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	2DEAC93A0B7A337800262340 /* Info copy.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 719}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{15, -1}, {885, 998}}";
+		};
+	};
+	2DEAC9680B7A360000262340 /* COLOR.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 719}}";
+			sepNavSelRange = "{93, 22}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{311, -23}, {885, 848}}";
+		};
+	};
+	2DF2DE480BE640A500E7133C /* animator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 1694}}";
+			sepNavSelRange = "{0, 2863}";
+			sepNavVisRect = "{{0, 0}, {1066, 689}}";
+			sepNavWindowFrame = "{{381, 85}, {1105, 818}}";
+		};
+	};
+	2DF3CDD10BA1F3E3003FE1BC /* animator.cxx */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 2380}}";
+			sepNavSelRange = "{0, 2923}";
+			sepNavVisRect = "{{0, 0}, {1021, 707}}";
+			sepNavWindowFrame = "{{164, 48}, {1060, 836}}";
+		};
+	};
+	32DBCF6D0370B57F00C91783 /* COLOR_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 719}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{15, 149}, {885, 848}}";
+		};
+	};
+	5FD9149B095F515300976476 /* MapBuilder.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {826, 1176}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1109}";
+			sepNavVisRect = "{{0, 464}, {846, 719}}";
+			sepNavWindowFrame = "{{466, 50}, {885, 848}}";
+		};
+	};
+	5FD9149C095F515300976476 /* mac.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 869}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 869}}";
+			sepNavWindowFrame = "{{15, -1}, {885, 998}}";
+		};
+	};
+	8D0C4E960486CD37000505A6 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 719}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRect = "{{0, 0}, {846, 719}}";
+			sepNavWindowFrame = "{{487, -116}, {885, 848}}";
+		};
+	};
+}
